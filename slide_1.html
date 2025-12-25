@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Slide 1: Steam, Steel, and Infinite Minds</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: #f9f9f7; /* Warm off-white */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Inter", sans-serif;
+        color: #2d2d2d; /* Deep Charcoal */
+        overflow: hidden;
+      }
+
+      .slide-container {
+        width: 1600px; /* 16:9 Aspect Ratio Base */
+        height: 900px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 80px;
+        box-sizing: border-box;
+        background: #f9f9f7;
+      }
+
+      .header {
+        text-align: center;
+        z-index: 2;
+      }
+
+      h1 {
+        font-size: 72px;
+        font-weight: 700;
+        margin: 0 0 20px 0;
+        letter-spacing: -1px;
+      }
+
+      h2 {
+        font-size: 32px;
+        font-weight: 400;
+        color: #5b7c99; /* Slate Blue Accent */
+        margin: 0;
+      }
+
+      .visual-container {
+        flex-grow: 1;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        position: relative;
+      }
+
+      /* Placeholder for the 3D Triptych */
+      .visual-placeholder {
+        width: 80%;
+        height: 60%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .visual-item {
+        width: 30%;
+        height: 100%;
+        border: 2px dashed #c87f68; /* Terracotta Red dashed line for placeholder */
+        background: rgba(200, 127, 104, 0.1);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 12px;
+        padding: 20px;
+      }
+
+      .visual-item .icon {
+        font-size: 48px;
+        margin-bottom: 20px;
+      }
+
+      .visual-item .desc {
+        font-size: 18px;
+        color: #7a9e7e; /* Sage Green */
+        font-weight: 600;
+      }
+
+      .footer {
+        text-align: center;
+        font-size: 24px;
+        color: #8a7e98; /* Muted Purple */
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="slide-container">
+      <div class="header">
+        <h1>Steam, Steel, and Infinite Minds</h1>
+        <h2>人工智能：重塑组织与经济的新型奇迹材料</h2>
+      </div>
+
+      <div class="visual-container">
+        <!-- 
+                Goal: Minimalist 3D Triptych
+                Left: Iron Ore (Past)
+                Center: Steel Beam (Industrial)
+                Right: Glowing Crystal/Brain (AI)
+            -->
+        <div class="visual-placeholder">
+          <div class="visual-item">
+            <div class="icon">🪨</div>
+            <div class="desc">IRON ORE<br />(The Past)</div>
+          </div>
+          <div class="visual-item">
+            <div class="icon">🏗️</div>
+            <div class="desc">STEEL BEAM<br />(Industrial Age)</div>
+          </div>
+          <div class="visual-item">
+            <div class="icon">🧠</div>
+            <div class="desc">INFINITE MIND<br />(AI Era)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">Ivan Zhao</div>
+    </div>
+  </body>
+</html>
